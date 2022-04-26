@@ -1,0 +1,132 @@
+#wrap {width:100%;}
+/* 상단부분 */
+#header{width:100%;
+    height: 150px;} 
+
+#header_in{width: 1000px;height: 150px;
+margin:0 auto;}
+
+#header_in {
+    width: 1000px;
+    height: 150px;
+}
+#header_in .header_h{
+    float: left; margin:10px 0 0 5px;
+    
+}
+#header_in .header_h li{
+    float: left;
+    margin-right: 5px;
+}
+
+#header_in .infomn{
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+#header_in .infomn li{
+    float: left;
+    margin-right: 5px;
+}
+
+#header_in .inform li a{font-size:11px; color: #333;}
+
+#header_in .logo{
+    clear: both; text-align: center;
+    padding: 15px 0 20px;
+}
+
+#header_in .nav{
+    width: 100%; height: 40px;
+}
+#header_in .nav ul{
+    margin: 0 auto; width: 700px;
+    display: flex; justify-content: space-around;
+}
+#header_in .nav li{
+    float: left;
+    /* width: 20%;text-align :center; */
+}
+#header_in .nav li a{
+    font-size: 18px; font-weight: bold; color: black;
+}
+
+/* 메인이미지 */
+#main_img{
+    width: 100%;height: 480px;
+}
+
+/*본문내용 */
+#contents{
+    width: 100%; height: 690px;
+}
+#contents_in{
+    width: 940px; height:690px;
+    margin: 0 auto;
+    
+}
+#contents_in .menu_1 {
+    width: 240px; height: 210px;
+    background-color: blue;
+    margin-top: 30px;
+    float: left;
+}
+
+#contents_in .menu_1 li{
+    margin-top: 10px;
+}
+    
+#contents_in .menu2_2{
+    width: 460px;
+    height: 240px;
+    margin-top: 30px;
+    margin: 0 auto;
+    float: left;
+    float: bottom;
+}
+#contents_in .menu2_2 li{
+    float: left;
+    margin-top: 30px;
+}
+#contents_in .menu2_3{
+    
+}
+#contents_in .menu2_3 li{
+    float: left;
+}
+#contents_in .store_1{
+    margin-top: 30px;
+    width: 240px; height: 680px;
+    background-color: aqua;
+    float: right;
+}
+#contents_in .service_1{
+    width: 240px; height: 210px;
+    float: 0 0 0 0;
+    float: bottom;
+}
+
+#contents_in .academy_1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+#contents_in .academy_1 li{
+}
+#contents_in .academy_1 a{
+    position: absolute;
+    margin-top: 14px;
+    border:1px solid rgb(97, 92, 92);
+    width:70px; height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgb(97, 92, 92);
+    color:white;
+}
+
+/* 하단부분 */
+
+#footer{
+    width: 100%; height: 120px;
+    background-color: beige;
+}
